@@ -5,13 +5,13 @@ from pytube import YouTube
 def setup():
     Path("downloads").mkdir(exist_ok=True)
 def get_format_menu():
-    print("====FORMATO====")
+    print("====FORMATO_DE_AUDIO====")
     print("1) MP3")
     print("2) AAC")
     print("3) FLAC")
     return input("Elige una opción: ")
 def get_video_format_menu():
-    print("====FORMATO====")
+    print("====FORMATO_DE_VIDEO====")
     print("1) MP4")
     print("2) AVI")
     print("3) MKV")
